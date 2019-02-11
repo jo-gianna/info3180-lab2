@@ -1,3 +1,20 @@
 body {
     padding-top: 5rem;
 }
+
+main{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    /*
+    grid-template-rows: 2fr 1fr;*/
+}
+
+.summary{
+    background-color: midnightblue;
+    color : white;
+}
+.info{
+    background-color: white;
+    color : gray;
+}

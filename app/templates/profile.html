@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block css %} 
+{% endblock%}
+
+{% block main%} 
+<div class = summary>
+    <img src = "{{url_for('static', filename= 'girl.jpg') }}">
+    <p id=name> Mary Jane </p>
+    <p id=ig-handle> @mary_jane </p>
+    <p id=address> Kingston, Jamaica</p>
+    <p id=date-joined> Joined January, 2018</p>
+</div>
+
+<div class = info>
+<p id=bio> ALL ABOUT MARY JANE... </p>
+<p id=stats> ...INCLUDE STATS HERE... </p>
+<button type="button">Follow <button>
+</div>
+
+{% endblock %}
