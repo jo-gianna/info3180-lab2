@@ -2,19 +2,29 @@ body {
     padding-top: 5rem;
 }
 
-main{
-    display : flex;
-    align-items : center;
-    justify-content: center;
-    /*
-    grid-template-rows: 2fr 1fr;*/
-}
-
 .summary{
-    background-color: midnightblue;
+    background-color: #781B1B;
     color : white;
+    padding: 2%;
 }
 .info{
     background-color: white;
     color : gray;
+}
+
+button{
+    background-color: #781B1B;
+    color : white;
+    width: 25%;
+    padding: 2px;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.profile{
+    text-align: center;
+    border: 2px solid black;
+    margin: 350px;
 }
